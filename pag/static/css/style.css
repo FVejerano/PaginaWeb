@@ -6,14 +6,14 @@ font-family: 'Heebo', sans-serif; */
   --primaryDarkColor: #3D0048;
   --primaryHoverColor: #900AA8;
   --secondaryColor: #F9B000;
-  --baseColor: #d3e010;
+  --baseColor: #191a18;
   --baseFont: 'Heebo', sans-serif;
   --titleFont: 'Courier Prime', monospace;
   --regular: 400;
   --medium: 500;
   --bold: 700;
   --black: 900;
-  --lightBg: #cde213;
+  --lightBg: #111111;
 }
 html {
   scroll-behavior: smooth;
@@ -28,6 +28,7 @@ ul {
   padding: 0;
   list-style-type: none;
 }
+
 img {
   max-width: 100%;
 }
@@ -376,17 +377,19 @@ a, .btn {
 }
 .cardOptionCol > li + li::before {
   content: "|";
-  position: absolute;
-  left: 16px;
+  position:relative;
+  left: 20px;
 }
 .cardOptionCol {
 	padding: 5px 0 10px;
 }
 .cardStyle1 {
+  text-align:left;
 	padding: 25px;
-	background-color: var(--bs-white);
+background-color: var(--bs-white);
 	border-radius: 4px;
   height: 100%;
+  width: 1080px;
 }
 .cardStyle1 > p:last-child {
 	margin-bottom: 0;
