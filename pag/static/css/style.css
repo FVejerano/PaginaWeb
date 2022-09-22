@@ -75,7 +75,8 @@ a, .btn {
 }
 .btnOutline {
 	border: 1px solid var(--primaryDarkColor);
-	color: var(--primaryDarkColor);
+	color:white;
+  background-color: #30bb37;
 }
 .btnOutline:hover {
 	border: 1px solid var(--primaryDarkColor);
@@ -290,6 +291,7 @@ a, .btn {
  color: white;
 }
 
+
 /* imagenes con movimientos inicio */
 .movimientos{
   width: 900px;
@@ -338,11 +340,15 @@ a, .btn {
   background-image: url(/static/images/fondo\ girl\ 2\ .png);
 
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
 }
 .sectionSpaceSm {
   padding: 35px 0;
-  background-image: url(/static/images/fondo\ principal.jpg);
+  background-image: url(/static/images/fondo-review.png);
+  background-attachment: fixed;
+  color: yellow;
 }
 .ksText {
 	display: block;
@@ -397,6 +403,7 @@ background-color: var(--bs-white);
 	border-radius: 4px;
   height: 100%;
   width: 1080px;
+  color: black;
 }
 .cardStyle1 > p:last-child {
 	margin-bottom: 0;
@@ -405,6 +412,7 @@ background-color: var(--bs-white);
   min-height: 90px;
   text-align: left;
   font-size: 30px;
+  color: black;
 }
 
 .dateLbl {
@@ -538,6 +546,8 @@ body.navToggleActive {
 /* portfolio page */
 .innerPageBannerCol {
 	padding: 180px 0 150px;
+  background-image: url(/static/images/fondo-review.png);
+  color: white;
 }
 .portfolioContentMain {
   position: relative;
